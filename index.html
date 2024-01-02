@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>JavaScript DOMs</title>
+</head>
+<body>
+   <div id="wrapper">
+      <!----- Header ------>
+      <header>
+         <div id="page-banner">
+            <h1 class="title">Bookorama</h1>
+            <p>Books for Ninjas</p>
+            <form id="search-books">
+               <input type="text" placeholder="Search books..." />
+            </form>
+         </div>
+      </header>
+
+       <!----- Booklist ------>
+       <div id="book-list">
+         <h2 class="title">Books to Read</h2>
+         <ul>
+            <li>
+               <span class="name">Name of the Wind</span>
+               <span class="delete">delete</span>
+            </li>
+
+            <li>
+               <span class="name">Things fall Apart</span>
+               <span class="delete">delete</span>
+            </li>
+
+            <li>
+               <span class="name">The Pirate of the Caribbean</span>
+               <span class="delete">delete</span>
+            </li>
+
+            <li>
+               <span class="name">Her Dark Secret</span>
+               <span class="delete">delete</span>
+            </li>
+
+            <li>
+               <span class="name">Van Wilder</span>
+               <span class="delete">delete</span>
+            </li>
+
+         </ul>
+       </div>
+
+       <!----- Add Book ------>
+       <form id="add-book">
+         <input type="text" placeholder="Add a book..." />
+         <button>Add</button>
+       </form>
+
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
