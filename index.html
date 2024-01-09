@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <title>JavaScript DOMs</title>
+   <script src="script.js"></script>
 </head>
 <body>
    <div id="wrapper">
@@ -59,7 +60,24 @@
          <button>Add</button>
        </form>
 
+       <div id="tabbed-content">
+         <ul class="tabs">
+            <li data-target="#about" class="active">About</li>
+            <li data-target="#contact">Contact</li>
+         </ul>
+
+         <div class="panel active" id="about">
+            <p>Content for about tab...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse iusto repudiandae, autem laborum voluptate facere quisquam quam nihil.</p>
+         </div>
+
+         <div class="panel" id="contact">
+            <p>Content for contact tab...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse iusto repudiandae, autem laborum voluptate facere quisquam quam nihil.</p>
+         </div>
+       </div>
+
    </div>
-   <script src="script.js"></script>
+   
 </body>
 </html>
